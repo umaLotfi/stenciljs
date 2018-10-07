@@ -1,0 +1,86 @@
+
+header {
+    background: #7c435b;
+    color: white;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    width: 1655px;
+  }
+  
+
+.blog-title {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 0 12px;
+  }
+  
+  button {
+    background: #520d2a;
+    width:100px;
+    color: white;
+    margin: 8px;
+    border: none;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 16px 20px;
+    border-radius: 2px;
+    box-shadow: 0 8px 16px rgba(0,0,0,.1), 0 3px 6px rgba(0,0,0,.08);
+    outline: 0;
+    letter-spacing: .04em;
+    transition: all .15s ease;
+    cursor: pointer;
+  }
+    
+  button:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.1);
+    transform: translateY(1px);
+  }
+  
+  
+  #left-bloc 
+  {
+    float: left;
+    margin-top:10px;
+    width: 120px;
+    height:2000px;
+    border:2px ridge rgb(112, 85, 85);
+    box-shadow:3px 3px 3px 3px #7c435b;
+    
+    
+  }
+  
+  #right-bloc
+{ position: relative;
+  padding-left: 12px;
+  margin :10px;
+  float : left;
+  width: 1500px;
+  height: 2000px;
+  border:2px ridge rgb(112, 85, 85);
+  box-shadow:3px 3px 3px 3px #7c435b;
+  
+  
+}
+
+.label {
+    color: #363636;
+    display: block;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 6px;
+    
+  }
+  
+
+  input
+  {
+    font-size: 1em;
+    font-weight: 500;
+    width: 300px;
+    height: 30px;;
+  }
+  
